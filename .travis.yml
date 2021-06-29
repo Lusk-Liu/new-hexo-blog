@@ -1,11 +1,11 @@
 sudo: false 
 language: node_js 
 node_js: 
-  - 12 
+  - 14 
 cache: npm 
 branches: 
   only: 
-  - main # build master branch only 
+  - main # build main branch only 
 script: 
   - hexo generate 
 deploy: 
