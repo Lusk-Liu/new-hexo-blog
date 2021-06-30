@@ -2,7 +2,7 @@
 title: jsDelivr CDN加速GitHub图床
 date: 2021-06-30 09:35:20
 tags:
-
+comments: false
 ---
 
 {%note info%}“jsDelivr 是中国大陆唯一一家拥有合法ICP备案的公共CDN服务提供商”（[官方介绍](https://www.jsdelivr.com/network)）{%endnote%}
