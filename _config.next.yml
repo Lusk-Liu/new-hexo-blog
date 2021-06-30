@@ -931,6 +931,6 @@ vendors:
 # Accelerate delivery of static files using a CDN
 
 # css: css
-css: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/css/main.css
+css: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/css/
 js: js
 images: images
