@@ -48,10 +48,10 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/favicon-16x16-next.png
+  medium: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/favicon-32x32-next.png
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/apple-touch-icon-next.png
+  safari_pinned_tab: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/logo.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
