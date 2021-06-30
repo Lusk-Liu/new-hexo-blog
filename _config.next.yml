@@ -30,7 +30,6 @@ custom_file_path:
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -43,7 +42,6 @@ scheme: Muse
 
 # Dark Mode
 darkmode: true
-
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -72,7 +70,6 @@ creative_commons:
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   language:
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -95,7 +92,6 @@ menu:
 menu_settings:
   icons: true
   badges: false
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -189,7 +185,6 @@ chat:
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
 
-
 # ---------------------------------------------------------------
 # Footer Settings
 # See: https://theme-next.js.org/docs/theme-settings/footer
@@ -227,7 +222,6 @@ footer:
     gongan_num:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -305,7 +299,6 @@ post_edit:
 # Available values: left | right | false
 post_navigation: left
 
-
 # ---------------------------------------------------------------
 # Custom Page Settings
 # See: https://theme-next.js.org/docs/theme-settings/custom-pages
@@ -331,7 +324,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -409,7 +401,6 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # ---------------------------------------------------------------
@@ -461,7 +452,6 @@ font:
     external: true
     family:
 
-
 # ---------------------------------------------------------------
 # SEO Settings
 # See: https://theme-next.js.org/docs/theme-settings/seo
@@ -491,7 +481,6 @@ yandex_site_verification:
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
 baidu_site_verification:
-
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -564,7 +553,6 @@ quicklink:
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   # This option is deprecated. Use `CONFIG.quicklink.ignores` in your custom scripts instead.
   ignores:
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -651,7 +639,6 @@ utterances:
 # For more information: https://posativ.org/isso/
 isso: # <data_isso>
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.js.org/docs/third-party-services/post-widgets
@@ -661,13 +648,12 @@ isso: # <data_isso>
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     # <app_id>
-  color:  "#fc6423"
+  id: # <app_id>
+  color: "#fc6423"
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id:
-
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -727,7 +713,6 @@ busuanzi_count:
   post_views: true
   post_views_icon: far fa-eye
 
-
 # ---------------------------------------------------------------
 # Search Services
 # See: https://theme-next.js.org/docs/third-party-services/search-services
@@ -754,7 +739,6 @@ local_search:
   # Preload the search data when the page loads.
   preload: false
 
-
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.js.org/docs/third-party-services/chat-services
@@ -775,7 +759,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -816,7 +799,6 @@ mermaid:
   # Available themes: default | dark | forest | neutral
   theme: forest
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -849,7 +831,6 @@ canvas_ribbon:
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
 
-
 #! ==============================================================
 #! DO NOT EDIT THE FOLLOWING SETTINGS
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -862,8 +843,8 @@ vendors:
   # The CDN provider of NexT internal scripts.
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Warning: If you are using the latest master branch of NexT, please set `internal: local`
-  # internal: local
-  internal: jsdelivr
+  internal: local
+  #internal: jsdelivr
   # The default CDN provider of third-party plugins.
   # Available values: local | jsdelivr | unpkg | cdnjs
   # Dependencies for `plugins: local`: https://github.com/next-theme/plugins
@@ -948,6 +929,8 @@ vendors:
 
 # Assets
 # Accelerate delivery of static files using a CDN
-css: css
+
+# css: css
+css: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/css/main.css
 js: js
 images: images
