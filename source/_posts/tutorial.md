@@ -5,11 +5,6 @@ tags:
 
 ---
 
-TODO
-- [ ] 插图
-- [ ] GitHub图床
-- [ ] emoji
-
 # 前期准备
 
 * 本地安装 [node.js](https://nodejs.org/zh-cn/)
@@ -60,6 +55,7 @@ cat ~./.ssh/id_rsa.pub
 {%note warning%} 2021-06-15后 应使用 [travis-ci.com](https://www.travis-ci.com/) {%endnote%}
 1. 使用GitHub账号[登录](https://travis-ci.com/signin)
 2. 在[这里](https://travis-ci.com/account/repositories)同步账户
+![Travis 同步账户](https://cdn.jsdelivr.net/gh/Lusk-Liu/GitHub-hosting@main/blog/img20210630111048.png)
 
 # hexo
 ## 安装hexo
@@ -184,9 +180,15 @@ deploy:
 ```
 
 `Travis`正确关联`GitHub`账号后，[这里](https://travis-ci.com/dashboard)会出现仓库信息
-在[这里](https://github.com/settings/tokens)生成一个新的`token`以供`Travis`使用
-在`travis`blog仓库的`settings - Environment Variables `中填入`token`
+![Travis Dashboard](https://cdn.jsdelivr.net/gh/Lusk-Liu/GitHub-hosting@main/blog/img20210630111300.png)
 
+在[这里](https://github.com/settings/tokens)生成一个新的`token`以供`Travis`使用
+![生成token](https://cdn.jsdelivr.net/gh/Lusk-Liu/GitHub-hosting@main/blog/img20210630105509.png)
+
+在`travis`中对应blog仓库的`settings - Environment Variables `中填入`token`
+![对应blog仓库](https://cdn.jsdelivr.net/gh/Lusk-Liu/GitHub-hosting@main/blog/img20210630111610.png)
+
+![环境变量配置](https://cdn.jsdelivr.net/gh/Lusk-Liu/GitHub-hosting@main/blog/img20210630112215.png)
 新建一篇blog，然后推送到GitHub
 ```bash
 cd hexo-new-blog
