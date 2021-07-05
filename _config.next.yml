@@ -14,7 +14,8 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+# minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -50,10 +51,14 @@ darkmode: true
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  # small: /images/favicon-16x16-next.png
+  # medium: /images/favicon-32x32-next.png
+  # apple_touch_icon: /images/apple-touch-icon-next.png
+  # safari_pinned_tab: /images/logo.svg
+  small: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/favicon-16x16-next.png
+  medium: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/favicon-32x32-next.png
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/apple-touch-icon-next.png
+  safari_pinned_tab: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/logo.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
@@ -340,7 +345,8 @@ calendar:
 
 # Preconnect CDN for fonts and plugins.
 # For more information: https://www.w3.org/TR/resource-hints/#preconnect
-preconnect: false
+# preconnect: false
+preconnect: true
 
 # Set the text alignment in posts / pages.
 text_align:
@@ -385,7 +391,8 @@ back2top:
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  # enable: false
+  enable: true
   # Available values: left | right
   startAt: left
   # Available values: top | bottom
@@ -535,7 +542,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://apoorv.pro/lozad.js/demo/
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -947,6 +954,9 @@ vendors:
 
 # Assets
 # Accelerate delivery of static files using a CDN
-css: css
-js: js
-images: images
+# css: css
+# js: js
+# images: images
+css: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/css
+js: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/js
+images: https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images
