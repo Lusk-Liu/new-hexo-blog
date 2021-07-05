@@ -43,6 +43,6 @@ GitHub 默认分支为`main`；
 # 结语
 创建 GitHub 仓库，并获取 token，填入 PicGo 配置即可完成。
 * 使用 jsDelivr 加速静态文件访问，优化体验。
-* 在 GitHub 存储图片，free（1024MB）。
+* 在 GitHub 存储图片，free（500MB）。
 * 使用 PicGo 能够将上传图片到 Github，并直接获取 jsDelivr 的加速后的图片地址，直接可以得到markdown格式，方便快捷。
 
