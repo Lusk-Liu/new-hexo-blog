@@ -21,31 +21,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;lusk-liu.github.io&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;Lusk-Liu&#x2F;new-hexo-blog@gh-pages&#x2F;images&quot;,&quot;scheme&quot;:&quot;Muse&quot;,&quot;version&quot;:&quot;8.5.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:true,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:true,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;搜索...&quot;,&quot;empty&quot;:&quot;没有找到任何搜索结果：${query}&quot;,&quot;hits_time&quot;:&quot;找到 ${hits} 个搜索结果（用时 ${time} 毫秒）&quot;,&quot;hits&quot;:&quot;找到 ${hits} 个搜索结果&quot;}}</script><script src="https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/js/config.js"></script>
-<meta name="description" content="请勿滥用公共资源，请勿jsDelivr CDN 加速GitHub仓库作图床（具体政策）   主要思路使用PicGo，将图片上传至腾讯云COS，再利用CDN访问COS，提高速度（降低COS费用）。使用效果：测试图片">
+<meta name="description" content="https:&#x2F;&#x2F;github.com&#x2F;CavsZhouyou&#x2F;Front-End-Interview-Notebook">
 <meta property="og:type" content="article">
-<meta property="og:title" content="腾讯云 COS+CDN 作图床">
-<meta property="og:url" content="https://lusk-liu.github.io/new-hexo-blog/2021/06/30/image-hosting/index.html">
+<meta property="og:title" content="Git">
+<meta property="og:url" content="https://lusk-liu.github.io/new-hexo-blog/2021/07/09/git-svn-interview/index.html">
 <meta property="og:site_name" content="LuskBLog">
-<meta property="og:description" content="请勿滥用公共资源，请勿jsDelivr CDN 加速GitHub仓库作图床（具体政策）   主要思路使用PicGo，将图片上传至腾讯云COS，再利用CDN访问COS，提高速度（降低COS费用）。使用效果：测试图片">
+<meta property="og:description" content="https:&#x2F;&#x2F;github.com&#x2F;CavsZhouyou&#x2F;Front-End-Interview-Notebook">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706143149.png">
-<meta property="og:image" content="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706144646.png">
-<meta property="og:image" content="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706145432.png">
-<meta property="article:published_time" content="2021-06-30T01:35:20.000Z">
-<meta property="article:modified_time" content="2021-07-06T06:59:28.239Z">
+<meta property="article:published_time" content="2021-07-09T01:36:10.000Z">
+<meta property="article:modified_time" content="2021-07-09T02:08:04.699Z">
 <meta property="article:author" content="Lusk Liu">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706143149.png">
 
 
-<link rel="canonical" href="https://lusk-liu.github.io/new-hexo-blog/2021/06/30/image-hosting/">
+<link rel="canonical" href="https://lusk-liu.github.io/new-hexo-blog/2021/07/09/git-svn-interview/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:&quot;&quot;,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;lusk-liu.github.io&#x2F;new-hexo-blog&#x2F;2021&#x2F;06&#x2F;30&#x2F;image-hosting&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;06&#x2F;30&#x2F;image-hosting&#x2F;&quot;,&quot;title&quot;:&quot;腾讯云 COS+CDN 作图床&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-CN&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;lusk-liu.github.io&#x2F;new-hexo-blog&#x2F;2021&#x2F;07&#x2F;09&#x2F;git-svn-interview&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;07&#x2F;09&#x2F;git-svn-interview&#x2F;&quot;,&quot;title&quot;:&quot;Git&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
-<title>腾讯云 COS+CDN 作图床 | LuskBLog</title>
+<title>Git | LuskBLog</title>
   
 
 
@@ -122,7 +118,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E6%80%9D%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">主要思路</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%85%BE%E8%AE%AF%E4%BA%91%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">腾讯云配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#COS%E9%85%8D%E7%BD%AE"><span class="nav-number">2.1.</span> <span class="nav-text">COS配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CDN%E9%85%8D%E7%BD%AE"><span class="nav-number">2.2.</span> <span class="nav-text">CDN配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#PicGo%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">PicGo配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">4.</span> <span class="nav-text">结语</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#git-%E4%B8%8E-svn-%E7%9A%84%E5%8C%BA%E5%88%AB%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">git 与 svn 的区别在哪里？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%8F%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84-git-%E5%91%BD%E4%BB%A4%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">经常使用的 git 命令？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git-pull-%E5%92%8C-git-fetch-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">3.</span> <span class="nav-text">git pull 和 git fetch 的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git-rebase-%E5%92%8C-git-merge-%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="nav-number">4.</span> <span class="nav-text">git rebase 和 git merge 的区别</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -182,7 +178,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://lusk-liu.github.io/new-hexo-blog/2021/06/30/image-hosting/">
+    <link itemprop="mainEntityOfPage" href="https://lusk-liu.github.io/new-hexo-blog/2021/07/09/git-svn-interview/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/Lusk-Liu/new-hexo-blog@gh-pages/images/avatar.gif">
@@ -195,7 +191,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          腾讯云 COS+CDN 作图床
+          Git
         </h1>
 
         <div class="post-meta-container">
@@ -205,16 +201,19 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2021-06-30 09:35:20" itemprop="dateCreated datePublished" datetime="2021-06-30T09:35:20+08:00">2021-06-30</time>
+      <time title="创建时间：2021-07-09 09:36:10 / 修改时间：10:08:04" itemprop="dateCreated datePublished" datetime="2021-07-09T09:36:10+08:00">2021-07-09</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-07-06 14:59:28" itemprop="dateModified" datetime="2021-07-06T14:59:28+08:00">2021-07-06</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
       </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E9%9D%A2%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">面试</span></a>
+        </span>
+    </span>
 
   
 </div>
@@ -226,20 +225,21 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <div class="note warning"><p>请勿滥用公共资源，请勿jsDelivr CDN 加速GitHub仓库作图床（<a target="_blank" rel="noopener" href="https://www.jsdelivr.com/terms/acceptable-use-policy-jsdelivr-net">具体政策</a>）</p>
+        <div class="note "><p><a target="_blank" rel="noopener" href="https://github.com/CavsZhouyou/Front-End-Interview-Notebook">https://github.com/CavsZhouyou/Front-End-Interview-Notebook</a> </p>
 </div>
 
-<h1 id="主要思路"><a href="#主要思路" class="headerlink" title="主要思路"></a>主要思路</h1><p>使用<a target="_blank" rel="noopener" href="https://molunerfinn.com/PicGo/">PicGo</a>，将图片上传至腾讯云COS，再利用CDN访问COS，提高速度（降低COS费用）。使用效果：<br><a target="_blank" rel="noopener" href="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706133820.jpg">测试图片</a></p>
 <span id="more"></span>
 
-<h1 id="腾讯云配置"><a href="#腾讯云配置" class="headerlink" title="腾讯云配置"></a>腾讯云配置</h1><h2 id="COS配置"><a href="#COS配置" class="headerlink" title="COS配置"></a>COS配置</h2><p><a target="_blank" rel="noopener" href="https://console.cloud.tencent.com/cos5/bucket">创建</a>一个用于存放静态文件的COS储存桶，名称符合规定，选择<code>私有读写</code>，降低恶意访问的流量消耗<br><img data-src="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706143149.png" alt="创建存储桶"></p>
-<h2 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h2><p>选择刚刚创建的桶，点击左侧<code>域名管理与传输管理-默认CDN加速域名</code>,编辑即可，务必开启<strong>回源鉴权</strong><br><img data-src="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706144646.png" alt="默认 CDN 加速域名"></p>
-<h1 id="PicGo配置"><a href="#PicGo配置" class="headerlink" title="PicGo配置"></a>PicGo配置</h1><p>在<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">这里</a>选择对应操作系统<code>release</code>下载发行版<br>安装并打开PicGo，在<code>图床设置</code>处配置腾讯云COS图床，详细参考<a target="_blank" rel="noopener" href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html#%E8%85%BE%E8%AE%AF%E4%BA%91cos">官方配置手册</a>，在自定义域名处填写CDN地址即可实现通过CDN访问COS<br><img data-src="https://blog-res-1254383992.file.myqcloud.com/blog/img/20210706145432.png" alt="腾讯云COS图床"></p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>创建 腾讯云COS，并开启CDN，填入 PicGo 配置即可完成。</p>
-<ul>
-<li>COS，CDN的钱该花得花</li>
-<li>使用 PicGo 能够将上传图片到 腾讯云COS，并直接获取 CDN 的加速后的图片地址，直接可以得到markdown格式，方便快捷。</li>
-</ul>
+<p>常用工具知识总结</p>
+<p>本部分主要是笔者关于常用工具所做的笔记，如果出现错误，希望大家指出！</p>
+<h2 id="git-与-svn-的区别在哪里？"><a href="#git-与-svn-的区别在哪里？" class="headerlink" title="git 与 svn 的区别在哪里？"></a>git 与 svn 的区别在哪里？</h2>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git 和 svn 最大的区别在于 git 是分布式的，而 svn 是集中式的。因此我们不能再离线的情况下使用 svn。如果服务器</span><br><span class="line">出现问题，我们就没有办法使用 svn 来提交我们的代码。</span><br><span class="line"></span><br><span class="line">svn 中的分支是整个版本库的复制的一份完整目录，而 git 的分支是指针指向某次提交，因此 git 的分支创建更加开销更小</span><br><span class="line">并且分支上的变化不会影响到其他人。svn 的分支变化会影响到所有的人。</span><br><span class="line"></span><br><span class="line">svn 的指令相对于 git 来说要简单一些，比 git 更容易上手。</span><br></pre></td></tr></table></figure>
+<p>   详细资料可以参考：<br>   <a target="_blank" rel="noopener" href="https://github.com/geeeeeeeeek/git-recipes/wiki/3.5-%E5%B8%B8%E8%A7%81%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%AF%94%E8%BE%83">《常见工作流比较》</a><br>   <a target="_blank" rel="noopener" href="https://juejin.im/post/5bd95bf4f265da392c5307eb">《对比 Git 与 SVN，这篇讲的很易懂》</a><br>   <a target="_blank" rel="noopener" href="https://blog.csdn.net/github_33304260/article/details/80171456">《GIT 与 SVN 世纪大战》</a><br>   <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/e8ad60710017">《Git 学习小记之分支原理》</a></p>
+<h2 id="经常使用的-git-命令？"><a href="#经常使用的-git-命令？" class="headerlink" title="经常使用的 git 命令？"></a>经常使用的 git 命令？</h2>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init                     // 新建 git 代码库</span><br><span class="line">git add                      // 添加指定文件到暂存区</span><br><span class="line">git rm                       // 删除工作区文件，并且将这次删除放入暂存区</span><br><span class="line">git commit -m [message]      // 提交暂存区到仓库区</span><br><span class="line">git branch                   // 列出所有分支</span><br><span class="line">git checkout -b [branch]     // 新建一个分支，并切换到该分支</span><br><span class="line">git status                   // 显示有变更的文件</span><br></pre></td></tr></table></figure>
+<p>   详细资料可以参考：<br>   <a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html">《常用 Git 命令清单》</a></p>
+<h2 id="git-pull-和-git-fetch-的区别"><a href="#git-pull-和-git-fetch-的区别" class="headerlink" title="git pull 和 git fetch 的区别"></a>git pull 和 git fetch 的区别</h2>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fetch 只是将远程仓库的变化下载下来，并没有和本地分支合并。</span><br><span class="line"></span><br><span class="line">git pull 会将远程仓库的变化下载下来，并和当前分支合并。</span><br></pre></td></tr></table></figure>
+<p>   <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_41975655/article/details/82887273">《详解 git pull 和 git fetch 的区别》</a></p>
+<h2 id="git-rebase-和-git-merge-的区别"><a href="#git-rebase-和-git-merge-的区别" class="headerlink" title="git rebase 和 git merge 的区别"></a>git rebase 和 git merge 的区别</h2>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git merge 和 git rebase 都是用于分支合并，关键在 commit 记录的处理上不同。</span><br><span class="line"></span><br><span class="line">git merge 会新建一个新的 commit 对象，然后两个分支以前的 commit 记录都指向这个新 commit 记录。这种方法会</span><br><span class="line">保留之前每个分支的 commit 历史。</span><br><span class="line"></span><br><span class="line">git rebase 会先找到两个分支的第一个共同的 commit 祖先记录，然后将提取当前分支这之后的所有 commit 记录，然后</span><br><span class="line">将这个 commit 记录添加到目标分支的最新提交后面。经过这个合并后，两个分支合并后的 commit 记录就变为了线性的记</span><br><span class="line">录了。</span><br></pre></td></tr></table></figure>
+<p>   <a target="_blank" rel="noopener" href="https://www.jianshu.com/p/f23f72251abc">《git rebase 和 git merge 的区别》</a><br>   <a target="_blank" rel="noopener" href="https://blog.csdn.net/liuxiaoheng1992/article/details/79108233">《git merge 与 git rebase 的区别》</a></p>
 
     </div>
 
@@ -253,13 +253,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/06/29/tutorial/" rel="prev" title="Blog自动化部署">
-                  <i class="fa fa-chevron-left"></i> Blog自动化部署
+                <a href="/2021/07/09/js-interview/" rel="prev" title="JavaScript">
+                  <i class="fa fa-chevron-left"></i> JavaScript
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/06/30/custom-domain/" rel="next" title="Blog自定义域名">
-                  Blog自定义域名 <i class="fa fa-chevron-right"></i>
+                <a href="/2021/07/09/network-interview/" rel="next" title="计算机网络">
+                  计算机网络 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
