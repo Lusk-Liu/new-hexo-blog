@@ -12,6 +12,7 @@ categories:
 
 Object的equals方法容易抛空指针异常，应使用常量或确定有值的对象来调用 equals。 
 
+<!--more-->
 举个例子：
 
 ```java

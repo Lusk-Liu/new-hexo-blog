@@ -7,5 +7,5 @@ comments: false
 
 TODO
 - [x] 插图
-- [x] GitHub图床
+- [x] 腾讯云图床
 - [ ] emoji
